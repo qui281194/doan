@@ -1,19 +1,4 @@
-var app = angular.module('myApp',['ngRoute']);
-  app.config(function($routeProvider)  {
-      $routeProvider
-      .when("/", { templateUrl  :  "home.html"
-      })
-      .when("/seven",  { templateUrl  :  "seven.html"
-      })
-      .when("/gallery",  { templateUrl  :  "gallery.html"
-      })
-      .when("/about",  { templateUrl  :  "about.html"
-      })
-      .when("/feedback",  { templateUrl  :  "feedback.html"
-      })
-      .when("/contact",  { templateUrl  :  "contact.html"
-      });
-  });
+
   $(document).ready(function(){
     $(window).scroll(function(){
         if($(this).scrollTop()){
