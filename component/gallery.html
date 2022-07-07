@@ -11,6 +11,8 @@
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
     <script  src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular-route.js">
     </script>
+  <link rel="stylesheet" href="/css/gallery.css">
+  
 </head>
 <body  ng-app="myApp">
     <div id="wrapper">
@@ -83,17 +85,17 @@
             </div>
             <div class="col-sm-10">
                 <div class="tab-content">
-                    <div id="asia" class="container tab-pane active"><br>
+                    <div id="asia" class="container tab-pane active" class="gallery"><br>
                         <h3>Asia</h3>
                         <div class="row">
-                            <div class="col-sm-4"><img src="/hinhanh/chau á/angkorwat.jpg" alt="" width="100%"></div>
-                            <div class="col-sm-4"><img src="/hinhanh/chau á/codohue.jpg" alt="" width="100%"></div>
-                            <div class="col-sm-4"><img src="/hinhanh/chau á/codohue2.jpeg" alt="" width="100%"></div>
+                            <div class="col-sm-4"><img src="/hinhanh/chau á/angkorwat.jpg" alt=""></div>
+                            <div class="col-sm-4"><img src="/hinhanh/chau á/codohue.jpg" alt=""></div>
+                            <div class="col-sm-4"><img src="/hinhanh/chau á/codohue2.jpeg" alt=""></div>
                         </div>
                         <div class="row">
-                            <div class="col-sm-4"><img src="/hinhanh/chau á/halongbay.png" alt="" width="100%"></div>
-                            <div class="col-sm-4"><img src="/hinhanh/chau á/halongbay2.jpg" alt="" width="100%"></div>
-                            <div class="col-sm-4"><img src="/hinhanh/chau á/halongbay3.jpg" alt="" width="100%"></div>
+                            <div class="col-sm-4"><img src="/hinhanh/chau á/halongbay.png" alt=""></div>
+                            <div class="col-sm-4"><img src="/hinhanh/chau á/halongbay2.jpg" alt=""></div>
+                            <div class="col-sm-4"><img src="/hinhanh/chau á/halongbay3.jpg" alt=""></div>
                         </div>
                         <div class="row">
                             <div class="col-sm-4"><img src="/hinhanh/chau á/Komodo.jpg" alt="" width="100%"></div>
@@ -116,7 +118,7 @@
                             <div class="col-sm-4"><img src="/hinhanh/chau á/van-ly-truong-thanh2.jpg" alt="" width="100%"></div>
                         </div>
                     </div>
-                    <div id="menu1" class="container tab-pane fade"><br>
+                    <div id="menu1" class="container tab-pane fade" class="gallery"><br>
                         <h3>Africa</h3>
                         <div class="row">
                             <div class="col-sm-4"><img src="/hinhanh/chau phi/aicap2.jpg" alt="" width="100%"></div>
@@ -138,13 +140,8 @@
                             <div class="col-sm-4"><img src="/hinhanh/chau phi/Tsingy de bemaraha2.jpg" alt="" width="100%"></div>
                             <div class="col-sm-4"><img src="/hinhanh/chau phi/Tsingy de bemaraha3.jpg" alt="" width="100%"></div>
                         </div>
-                        <div class="row">
-                            <div class="col-sm-4"><img src="/hinhanh/chau phi/Tsingy de bemaraha4.jpg" alt="" width="100%"></div>
-                            <div class="col-sm-4"><img src="/hinhanh/chau phi/" alt="" width="100%"></div>
-                            <div class="col-sm-4"><img src="/hinhanh/chau phi/" alt="" width="100%"></div>
-                        </div>
                     </div>
-                    <div id="menu2" class="container tab-pane fade"><br>
+                    <div id="menu2" class="container tab-pane fade" class="gallery"><br>
                         <h3>Australia</h3>
                         <div class="row">
                             <div class="col-sm-4"><img src="/hinhanh/chau uc/kakadu.jpg" alt="" width="100%"></div>
@@ -157,7 +154,7 @@
                             <div class="col-sm-4"><img src="/hinhanh/chau uc/uluru2.jpg" alt="" width="100%"></div>
                         </div>
                     </div>
-                    <div id="menu3" class="container tab-pane fade"><br>
+                    <div id="menu3" class="container tab-pane fade" class="gallery"><br>
                         <h3>Europe</h3>
                         <div class="row">
                             <div class="col-sm-4"><img src="/hinhanh/chauau/Carpathian.jpg" alt="" width="100%"></div>
@@ -200,7 +197,7 @@
                             <div class="col-sm-4"><img src="/hinhanh/chauau/studley.jpg" alt="" width="100%"></div>
                         </div>
                     </div>
-                    <div id="menu4" class="container tab-pane fade"><br>
+                    <div id="menu4" class="container tab-pane fade" class="gallery"><br>
                         <h3>North America</h3>
                         <div class="row">
                             <div class="col-sm-4"><img src="/hinhanh/chaumi/arizona2.jpg" alt="" width="100%"></div>
@@ -401,6 +398,15 @@
 <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 <script src="/Folder JS/doan.js"></script>
 <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+
+<!-- script hinh anh -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"
+     integrity="sha512-b4rL1m5b76KrUhDkj2Vf14Y0l1NtbiNXwV+SzOzLGv6Tz1roJHa70yr8RmTUswrauu2Wgb/xBJPR8v80pQYKtQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    </script>
+    <script>
+        lightGallery(document.querySelector('.gallery'));
+    </script>
 </body>
 </html>
 
