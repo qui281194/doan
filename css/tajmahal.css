@@ -1,0 +1,29 @@
+.img1{
+    float: left;
+}
+.p1{
+    margin-left: 220px;
+    
+}
+.p2{
+    font-style: italic;
+    font-family: sans-serif;
+}
+.img2{
+    float: right;
+}
+.p3{
+    margin-right: 220px;
+}
+.menu li a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    display: block;
+    line-height: 20px;
+}
+.menu li{
+    list-style: none;
+    padding: 10px 12px;
+    
+}
