@@ -116,6 +116,20 @@ header.sticky #main-menu a {
   .card{
     height: 700px;
   }
+  #backtop{
+    width: 50px;
+    height: 50px;
+    background: tomato;
+    color: #fff;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    cursor: pointer;
+  }
   
   /* .aspect-ratio-169{
     display: block;
