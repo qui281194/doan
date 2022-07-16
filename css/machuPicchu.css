@@ -10,3 +10,10 @@
     padding: 10px 12px;
     
 }
+.sidebar{
+    min-height: 200px;
+    top:15%;
+    position: -webkit-sticky;
+    position: sticky;
+    overflow: auto;
+}
