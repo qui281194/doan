@@ -11,6 +11,17 @@
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
     <script  src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular-route.js">
     </script>
+    <style>
+   .sidebar {
+    
+  min-height: 200px;
+  overflow: auto;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 15%;
+}
+
+    </style>
 </head>
 <body  ng-app="myApp">
     <div id="wrapper">
@@ -59,75 +70,167 @@
 <section class="container">
     <div class="container">
         <div class="row">
-            <div class="col-sm-2">
-                <ul class="nav nav-tabs" role="tablist">
-                    <li class="nav-item">
-                      <a class="nav-link active"  href="/Seven wonder/pyramids.html">
-                        <h1>I. Giza Piramid</h1>
-                          <img src="\hinhanh\images\Pyramids-of-Giza.jpg" alt="pyramids" width="500px" class="center">
-                      </a>
-                    </li>
+          <div class="col-sm-2"   >
+            <div class="sidebar">
+              <ul class="nav nav-tabs" role="tablist" >
+                 
+                <li class="nav-item">
+                  <a class="nav-link"  href="#menu1">Giza Piramid</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link"  href="#menu2">Colosseum</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"  href="#menu3">Great wall Of China</a>
+                  </li>
+                  <li class="nav-item">
+                  <a class="nav-link"  href="#menu4"> Petra</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link"  href="#menu5"> Christ of redeemmers</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link"  href="#menu6">Macchu Picchu</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#chichen">Chicchen Itza</a>
+                </li>
+              </ul>    
+            </div>
+          </div>
+          
 
-                    <li class="nav-item">
+            <div class="col-sm-7">
+              <div class="tab-content">
+                <div id="menu1" ><br>
+                  <div class="card">
+                    <div class="card-header">
+                      <a class="nav-link"  href="/Seven wonder/greatwall.html">
+                        <h1>I. Great wall Of China</h1>
+                              <img src="\hinhanh\images\great wall.jpg" alt="wall" width="100%" class="center">
+                      </a>
+                    </div>
+                    <div class="card-body">
+                      Great Wall of China, Chinese (Pinyin) Wanli Changcheng or (Wade-Giles romanization) Wan-li Ch’ang-ch’eng (“10,000-Li Long Wall”), extensive bulwark erected in ancient China, one of the largest building-construction projects ever undertaken. 
+                     The Great Wall actually consists of numerousy... <a href="/Seven wonder/greatwall.html">See more</a>
+                    </div>
+                  </div>
+                </div> 
+
+                <br>
+
+                <div id="menu2" ><br>
+                  <div class="card">
+                    <div class="card-header">
                       <a class="nav-link"  href="/Seven wonder/Colosseum.html"> 
                         <h1>II. Colosseum</h1>
-                            <img src="\hinhanh\images\colosseum.jpg" alt="colosseum" width="500px" class="center">
+                            <img src="\hinhanh\images\colosseum.jpg" alt="colosseum" width="100%" class="center">
                       </a>
-                    </li>
-
-                    <li class="nav-item">
-                      <a class="nav-link"  href="/Seven wonder/greatwall.html">
-                        <h1>III. Great wall Of China</h1>
-                              <img src="\hinhanh\images\great wall.jpg" alt="wall" width="500px" class="center">
-                      </a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link"  href="/Seven wonder/Petra.html">
-                          <h1>IV. Petra</h1>
-                          <img src="\hinhanh\images\Petra.jpg" alt="Petra" width="500px" class="center">
-                        </a>
-                      </li>
-
-                      <li class="nav-item">
-                      <a class="nav-link"  href="/Seven wonder/Christ the redeemer.html">
-                        <h1>V. Christ of redeemmers</h1>
-                        <img src="\hinhanh\images\Christ of Redeemer.jpg" alt="Christ" width="500px" class="center">
-                      </a>
-                    </li>
-
-                    <li class="nav-item">
-                      <a class="nav-link active"  href="/Seven wonder/Macchu Picchu.html">
-                        <h1>VI.Macchu Picchu</h1>
-                              <img src="\hinhanh\images\Macchu.jpg" alt="Macchu" width="500px" class="center">
-                      </a>
-
-                      <li class="nav-item">
-                        <a class="nav-link active" href="/Seven wonder/chicchen Itza.html">
-                          <h1>VII. Chicchen Itza </h1>
-                              <img src="\hinhanh\images\Chichen.jpg" alt="Chichen" width="500px" class="center">
-  
-                        </a>
-                  </ul>
-            </div>
-            <div class="col-sm-8">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <div class="tab-content">
-                            <div id="home" class="container tab-pane active"><br>   
-                            </div>
-                            <div id="menu1" class="container tab-pane fade"><br>
-                              
-                            </div>
-                          </div>
-
                     </div>
+                    <div class="card-body">
+                      Colosseum, also called Flavian Amphitheatre, giant amphitheatre built in Rome under the Flavian emperors. 
+                      Construction of the Colosseum was begun sometime between 70 and 72 CE during the reign of Vespasian. 
+                      It is located just east of the Palatine Hill, on the grounds of what was Nero’s Golden House... <a href="/Seven wonder/Colosseum.html">See more</a>
+                    </div>
+                  </div>
                 </div>
-            </div>
-            <div class="col-sm-2"></div>
-        </div>
+                  
 
-    </div>
+                <br>
+                <div id="menu3" ><br>
+                  <div class="card">
+                    <div class="card-header">
+                      <a href="/Seven wonder/pyramids.html">
+                        <h1> III. Giza Piramid</h1>
+                        <img src="\hinhanh\images\Pyramids-of-Giza.jpg" alt="" width="100%">
+                      </a> 
+                    </div>
+                    <div class="card-body">
+                      Pyramids of Giza, Arabic Ahrāmāt Al-Jīzah, Giza also spelled Gizeh, three 4th-dynasty (c. 2575–c. 2465 BCE) pyramids erected on a rocky plateau on the west bank of the Nile River near Al-Jīzah (Giza) in northern Egypt. 
+                     In ancient times they were included... <a href="/Seven wonder/pyramids.html">See more</a>
+                      
+                    </div>
+                  </div>
+                </div>
+                
+                  <br>
+                  <div class="card">
+                      <div class="card-header">
+                        <a class="nav-link"  href="/Seven wonder/Petra.html" id="menu4">
+                          <h1>IV. Petra</h1>
+                          <img src="\hinhanh\images\Petra.jpg" alt="Petra" width="100%" class="center">
+                        </a>
+                      </div>
+                    <div class="card-body">
+                        Petra, Arabic Baṭrā, ancient city, centre of an Arab kingdom in Hellenistic and Roman times, the ruins of which are in southwest Jordan. The city was built on a terrace, pierced from east to west by the Wadi Mūsā (the Valley of Moses)—one of the places where... <a href="/Seven wonder/Petra.html">See more</a>
+                       
+                    </div>
+                  </div>
+
+                  <div id="menu5" ><br>
+                    <div class="card">
+                      <div class="card-header">
+                        <a class="nav-link"  href="/Seven wonder/Christ the redeemer.html">
+                          <h1>V. Christ of redeemmers</h1>
+                          <img src="\hinhanh\images\Christ of Redeemer.jpg" alt="Christ" width="100%" class="center">
+                        </a>
+                      </div>
+                      <div class="card-body">
+                        Christ the Redeemer, Portuguese Cristo Redentor, colossal statue of Jesus Christ at the summit of Mount Corcovado, Rio de Janeiro, southeastern Brazil. 
+                        Celebrated in traditional and popular songs, Corcovado towers over Rio de Janeiro, Brazil’s principal port city... <a href="/Seven wonder/Christ the redeemer.html">See more</a>
+                      </div>
+                  </div>
+                  </div>
+
+                  <div id="menu6" ><br>
+                    <div class="card">
+                      <div class="card-header">
+                        <a class="nav-link active"  href="/Seven wonder/Macchu Picchu.html">
+                          <h1>VI.Macchu Picchu</h1>
+                                <img src="\hinhanh\images\Macchu.jpg" alt="Macchu" width="100%" class="center">
+                        </a>
+                      </div>
+                      <div class="card-body">
+                        Machu Picchu, also spelled Machupijchu, site of ancient Inca ruins located about 50 miles (80 km) northwest of Cuzco, Peru, in the Cordillera de Vilcabamba of the Andes Mountains. It is perched above the Urubamba River valley in a narrow saddle... <a href="/Seven wonder/Macchu Picchu.html">See more</a>
+                      </div>
+                  </div>
+                  </div>
+
+                  <div id="menu7" ><br>
+                    
+                    <div class="card">
+                      <div class="card-header">
+                        <a class="nav-link active" href="/Seven wonder/chicchen Itza.html">
+                          <h1 id="chichen">VII. Chicchen Itza </h1>
+                              <img src="\hinhanh\images\Chichen.jpg" alt="Chichen" width="100%" class="center">
+                        </a>
+                      </div>
+                      <div class="card-body">
+                        hichén Itzá, ruined ancient Maya city occupying an area of 4 square miles (10 square km) in south-central Yucatán state, Mexico. It is thought to have been a religious, military, political, and commercial centre that at its peak would have been home to 35,000 people. 
+                       The site first saw settlers in 550, probably drawn there because of the easy access to water in the region via caves and sinkholes in limestone formations, known as cenotes... <a href="/Seven wonder/chicchen Itza.html">See More</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                </div>
+                <div class="col-sm-3">
+                  <h1>See More</h1>
+                  <div class="card">
+                    <div class="card-header">
+                      <a class="nav-link"  href="/Seven wonder/greatwall.html">
+                        
+                      </a>
+                        
+                    </div>
+                
+                  </div>
+                </div>
+              </div>
+          </div>
+         
+        
+      
+                     
 </section>
  <!-- Remove the container if you want to extend the Footer to full width. -->
 <div class="container my-5">

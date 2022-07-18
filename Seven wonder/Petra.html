@@ -22,11 +22,16 @@
       margin-left: auto;
       margin-right: auto;  
      } 
-     #sticky-sidebar {
-position:fixed;
-max-width: 20%;
+     
+   .sidebar {
+    
+  min-height: 200px;
+  overflow: auto;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 15%;
 }
-    </style>
+  </style>
 </head>
 <body> 
     
@@ -78,9 +83,14 @@ max-width: 20%;
 
   <div class="row">
     <div class="col-sm-2">
-      <form>
-        <input type="button" value="Back to Seven Wonders" onclick="history.back()" style="color: blue ;" id="sticky-sidebar">
-       </form>
+      <div class="sidebar">
+       <ul class="nav nav-tabs" role="tablist" >
+        
+        <li class="nav-item">
+          <a class="nav-link"  href="/component/seven.html">Back to seven wonders</a>
+        </li>
+        </ul>
+      </div>
     </div>
     <br>
     <div class="col-sm-8" >
