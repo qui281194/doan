@@ -66,7 +66,7 @@ font-weight: bold;
 color: brown;
 }
 #banner{
-  background: url(./hinhanh/Trungquoc.jpg);
+  background: url(../hinhanh/Trungquoc.jpg);
   min-height: 830px;
   width: 100%;
   background-size: cover;
