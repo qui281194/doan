@@ -67,7 +67,85 @@ color: brown;
 }
 #banner{
   background: url(../hinhanh/chauau/stone2.jpg);
-  min-height: 830px;
+  min-height: 650px;
+  width: 100%;
+  background-size: cover;
+}
+#angkor{
+  background: url(../hinhanh/Angkor.jpg);
+  min-height: 650px;
+  width: 100%;
+  background-size: cover;
+}
+#chichen{
+  background: url(../hinhanh/ChichenItza.jpg);
+  min-height: 650px;
+  width: 100%;
+  background-size: cover;
+}
+#china{
+  background: url(../hinhanh/trungquoc/trungquoc2.jpg);
+  min-height: 650px;
+  width: 100%;
+  background-size: cover;
+}
+#lama{
+  background: url(../hinhanh/lama/lama4.jpeg);
+  min-height: 650px;
+  width: 100%;
+  background-size: cover;
+}
+#machupicchu{
+  background: url(../hinhanh/machuPicchu/thanhdia6.jpg);
+  min-height: 650px;
+  width: 100%;
+  background-size: cover;
+}
+#phucsinh{
+  background: url(../hinhanh/phucsinh/phucsinh11.webp);
+  min-height: 650px;
+  width: 100%;
+  background-size: cover;
+}
+#giza{
+  background: url(../hinhanh/pyramidGiza/pyramids12.jpg);
+  min-height: 650px;
+  width: 100%;
+  background-size: cover;
+}
+#stonehenge{
+  background: url(../hinhanh/Stonehenge/stonehenge15.jpg);
+  min-height: 650px;
+  width: 100%;
+  background-size: cover;
+}
+#tajmahal{
+  background: url(../hinhanh/Tajmahal/tajmahal1.jpg);
+  min-height: 650px;
+  width: 100%;
+  background-size: cover;
+}
+#gallery{
+  background: url(../hinhanh/boconganh.jpg);
+  min-height: 650px;
+  width: 100%;
+  background-size: cover;
+}
+#feedback{
+  background: url(../hinhanh/feedback.jpg);
+  min-height: 650px;
+  width: 100%;
+  background-size: cover;
+}
+#contact{
+  background: url(../hinhanh/dinhdoclap.jpg);
+  min-height: 650px;
+  width: 100%;
+  background-size: cover;
+}
+#about{
+  background: url(../hinhanh/abuot.jpg);
+  min-height: 650px;
   width: 100%;
   background-size: cover;
 }
