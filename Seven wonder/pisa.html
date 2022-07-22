@@ -23,10 +23,14 @@
       margin-left: auto;
       margin-right: auto;  
      } 
-     #sticky-sidebar {
-position:fixed;
-max-width: 20%;
-}
+     .sidebar {
+    
+    min-height: 200px;
+    overflow: auto;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 15%;
+  }
     </style>
 </head>
 <body>
@@ -75,11 +79,15 @@ max-width: 20%;
       </div> <br>
 
       <div class="row">
-        <div class="col-sm-2" style="background-color:gray;">
-         
+        <div class="col-sm-2">
+          <div class="sidebar">
+            <li class="nav-item">
+              <a class="nav-link"  href="../component/seven.html">Back to seven wonders</a>
+            </li>
+          </div>
         </div>
         <br>
-        <div class="col-sm-8" style="background-color: gray ;">
+        <div class="col-sm-8" >
             <h1>Leaning Tower of Pisa</h1>
             <p>One of Italy's signature sights, the Torre Pendente truly lives up to its name, leaning a startling 3.9 degrees off the vertical. 
                 The 58m-high tower, officially the Duomo's campanile (bell tower), took almost 200 years to build, but was already listing when it was unveiled in 1372.
@@ -109,8 +117,8 @@ max-width: 20%;
             <img src="" alt="">
         </div>
 
-        <div class="col-sm-2" style="background-color:gray;">
-          
+        <div class="col-sm-2" >
+          <a href="../Seven wonder/pisa.html" download>Download link</a>
         </div>
     </div>
     
