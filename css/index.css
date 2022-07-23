@@ -134,7 +134,7 @@ color: brown;
 #feedback{
   background: url(../hinhanh/fback.jpg);
   min-height: 650px;
-  width: 50%;
+  width: 100%;
   background-size: cover;
 }
 #contact{
