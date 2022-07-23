@@ -208,6 +208,9 @@ header.sticky #main-menu a {
   right: 20px;
   cursor: pointer;
 }
+#active{
+  color: rgb(253, 233, 116);
+}
 
 /* .aspect-ratio-169{
   display: block;
