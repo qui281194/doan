@@ -133,7 +133,7 @@ color: brown;
 }
 #feedback{
   background: url(../hinhanh/fback.jpg);
-  min-height: 650px;
+  min-height: 100%;
   width: 100%;
   background-size: cover;
 }
