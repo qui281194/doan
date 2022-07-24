@@ -1,0 +1,26 @@
+#hoguom{
+    background: url(../hinhanh/hohoankiem/hinhnen.jpg);
+    min-height: 650px;
+    width: 100%;
+    background-size: cover;
+  
+}
+.menu li a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    display: block;
+    line-height: 20px;
+}
+.menu li{
+    list-style: none;
+    padding: 10px 12px;
+    
+}
+.sidebar{
+    min-height: 200px;
+    top:15%;
+    position: -webkit-sticky;
+    position: sticky;
+    overflow: auto;
+}
