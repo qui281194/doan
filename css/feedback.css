@@ -43,7 +43,8 @@
 
 }
 .rate {
-    float: left;
+    width: 200px;
+    margin: auto;
     height: 46px;
     padding: 0 10px;
 }

@@ -36,7 +36,8 @@ function sendEmail(){
               + "<br> Phone no: " + document.getElementById("phone").value
               + "<br> Message: " + document.getElementById("message").value
     }).then(
-    message => alert("Message sent succesfully")
+    message => alert("Thank you for giving us feedback!" + 
+                    "\nhave a nice day")
     );
 }
 // var btnSearch = document.querySelector('.search-box__btn');
