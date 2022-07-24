@@ -58,8 +58,8 @@
             
 </div> <br>
 <section class="container">
-  
-    <div class="container">
+  <div class="row">
+    <div class="col-sm-12">
       <div class="rate">
         <input type="radio" id="star5" name="rate" value="5" />
         <label for="star5" title="text">5 stars</label>
@@ -71,7 +71,11 @@
         <label for="star2" title="text">2 stars</label>
         <input type="radio" id="star1" name="rate" value="1" />
         <label for="star1" title="text">1 star</label>
-      </div> <br>
+      </div> 
+    </div>
+    <div class="col-sm-12">
+      <div class="container">
+      
         <form id="form1" onsubmit="sendEmail(); reset(); return false">
             <h3>YOUR OPINION</h3>
             <input type="text" id="name" placeholder="Your Name" required>
@@ -81,6 +85,10 @@
             <button type="submit">Send</button>
         </form>
     </div>
+    </div>
+  </div>
+  
+   
 </section>
  <!-- Remove the container if you want to extend the Footer to full width. -->
 <div class="container my-5">
