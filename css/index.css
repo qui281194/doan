@@ -66,7 +66,7 @@ font-weight: bold;
 color: brown;
 }
 #banner{
-  background: url(../hinhanh/chauau/stone2.jpg);
+  background: url(../hinhanh/stone\ sua.png);
   min-height: 650px;
   width: 100%;
   background-size: cover;
@@ -138,13 +138,13 @@ color: brown;
   background-size: cover;
 }
 #contact{
-  background: url(../hinhanh/dinhdoclap.jpg);
+  background: url(../hinhanh/contact_us.jpg);
   min-height: 650px;
   width: 100%;
   background-size: cover;
 }
 #about{
-  background: url(../hinhanh/abuot.jpg);
+  background: url(../hinhanh/about-us.jpg);
   min-height: 650px;
   width: 100%;
   background-size: cover;
