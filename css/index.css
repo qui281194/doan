@@ -156,6 +156,15 @@ color: brown;
   background-size: cover;
 
 }
+#video{
+  width: 100%;
+  height: 50vh;
+}
+#anh{
+ width: 600px;
+ margin: auto;
+ 
+}
 header.sticky{
 
   background: #fff;
