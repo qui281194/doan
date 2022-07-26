@@ -66,8 +66,6 @@ font-weight: bold;
 color: brown;
 }
 #banner{
-  background: url(../hinhanh/stone\ sua.png);
-  min-height: 650px;
   width: 100%;
   background-size: cover;
 }
