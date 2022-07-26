@@ -1,7 +1,7 @@
 #coloa{
-    background: url(../hinhanh/coloa/hinhnencoloa.jpeg);
-    min-height: 650px;
     width: 100%;
+    padding-bottom: 30px;
+    min-height: auto;
     background-size: cover;
   
   }

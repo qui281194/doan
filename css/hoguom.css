@@ -1,7 +1,7 @@
 #hoguom{
-    background: url(../hinhanh/hohoankiem/hinhnen.jpg);
-    min-height: 650px;
     width: 100%;
+    padding-bottom: 30px;
+    min-height: auto;
     background-size: cover;
   
 }
