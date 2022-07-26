@@ -71,6 +71,12 @@ color: brown;
   width: 100%;
   background-size: cover;
 }
+#seven{
+  background: url(../hinhanh/chuado.jpg);
+  min-height: 650px;
+  width: 100%;
+  background-size: cover;
+}
 #angkor{
   background: url(../hinhanh/Angkor.jpg);
   min-height: 650px;
