@@ -132,25 +132,25 @@ color: brown;
   background-size: cover;
 }
 #gallery{
-  background: url(../hinhanh/fback.jpg);
+  background: url(../hinhanh/f.jpeg);
   min-height: 650px;
   width: 100%;
   background-size: cover;
 }
 #feedback{
-  background: url(../hinhanh/fback.jpg);
+  background: url(../hinhanh/fbackchinhsua.png);
   min-height: 650px;
   width: 100%;
   background-size: cover;
 }
 #contact{
-  background: url(../hinhanh/contact_us.jpg);
+  background: url(../hinhanh/contactsua.png);
   min-height: 650px;
   width: 100%;
   background-size: cover;
 }
 #about{
-  background: url(../hinhanh/about-us.jpg);
+  background: url(../hinhanh/about-ussua.png);
   min-height: 650px;
   width: 100%;
   background-size: cover;
